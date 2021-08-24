@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- Twailend Css -->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="bg-yellow-100">
+
+    <!-- Navbar start -->
+
+
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 py-6 container mx-auto">
+        <div class="flex items-center flex-shrink-0 text-white mr-6 w-1/4">
+          <img src="icons/Group 33072.png" >
+        </div>
+        <div class="block lg:hidden">
+          <button class="mobile-button flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div class="w-full block hidden md:visible mobile-menu  lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm   lg:flex-grow ">
+            <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+              Home
+            </a>
+            <a href="#womenProduct" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Product
+            </a>
+            <a href="#features" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+              About
+            </a>
+            <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+    <!-- Navbar End -->
+
+    <section class="container md:flex justify-around items-center py-12 px-4">
+        <div class="space-y-4">
+            <h1 class="text-7xl font-bold uppercase">
+                <span class="text-yellow-400">Be the penguin</span>
+                <br>
+                <span class="text-gray-800">of winter</span>
+            </h1>
+            <p class="w-2/3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit am aliquam beatae, aut magnam.</p>
+            <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                  </svg>
+                Buy Now
+            </button>
+        </div>
+        <div>
+            <img src="images/model.png"/>
+        </div>
+    </section>
+	
+</header>
+
+<main>
+    <!-- Women jacket section -->
+    <section id="womenProduct" class="container px-4 mx-auto mb-5">
+        <h2 class="font-bold text-4xl text-gray-900 mb-5">Women Jacket</h2>
+        <!-- woman jacket container -->
+        <div class="grid lg:grid-cols-3 gap-7">
+            <div class="shadow-lg rounded-2xl space-y-4 p-4">
+
+                <div class="bg-gray-300 rounded-2xl py-6">
+                    <img class="h-64 mx-auto" src="images/jacket-1.png" alt="">
+                </div>
+                <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, perspiciatis!</p>
+                <div class="flex justify-between items-center">
+                    <h2 class="text-5xl font-black text-yellow-400">$234</h2>
+                    <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="shadow-lg rounded-2xl space-y-4 p-4">
+
+                <div class="bg-gray-300 rounded-2xl py-6">
+                    <img class="h-64 mx-auto"src="images/jacket-2.png" alt="">
+                </div>
+                <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, perspiciatis!</p>
+                <div class="flex justify-between items-center">
+                    <h2 class="text-5xl font-black text-yellow-400">$234</h2>
+                    <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="shadow-lg rounded-2xl space-y-4 p-4">
+
+                <div class="bg-gray-300 rounded-2xl py-6">
+                    <img class="h-64 mx-auto" src="images/jacket-3.png" alt="">
+                </div>
+                <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, perspiciatis!</p>
+                <div class="flex justify-between items-center">
+                    <h2 class="text-5xl font-black text-yellow-400">$234</h2>
+                    <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<!-- man jacket section -->
+<section class="container px-4 mx-auto">
+    <h2 class="font-bold text-4xl text-gray-900 mb-5">Man jacket section</h2>
+    <div class="grid lg:grid-cols-3 gap-7">
+        <div class="shadow-lg rounded-2xl space-y-4 p-4">
+
+            <div class="bg-gray-300 rounded-2xl py-6">
+                <img class="h-64 mx-auto" src="images/jacket-4.png" alt="">
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, perspiciatis!</p>
+            <div class="flex justify-between items-center">
+                <h2 class="text-5xl font-black text-yellow-400">$234</h2>
+                <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                      </svg>
+                    Buy Now
+                </button>
+            </div>
+        </div>
+        <div class="shadow-lg rounded-2xl space-y-4 p-4">
+
+            <div class="bg-gray-300 rounded-2xl py-6">
+                <img class="h-64 mx-auto" src="images/jacket-5.png" alt="">
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, perspiciatis!</p>
+            <div class="flex justify-between items-center">
+                <h2 class="text-5xl font-black text-yellow-400">$234</h2>
+                <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                      </svg>
+                    Buy Now
+                </button>
+            </div>
+        </div>
+        <div class="shadow-lg rounded-2xl space-y-4 p-4">
+
+            <div class="bg-gray-300 rounded-2xl py-6">
+                <img class="h-64 mx-auto" src="images/jacket-6.png" alt="">
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, perspiciatis!</p>
+            <div class="flex justify-between items-center">
+                <h2 class="text-5xl font-black text-yellow-400">$234</h2>
+                <button class=" bg-gradient-to-r from-red-500 via-red-800 to-red-400 text-white uppercase px-7 py-4 rounded-xl font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                      </svg>
+                    Buy Now
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features section start -->
+<section id="features" class="mt-8 grid grid-flow-row  lg:grid-cols-2 gap-5 container sm:mx-12">
+
+   
+
+    <div class="bg-white-200 sm:flex text-center sm:text-left   py-5 px-6 rounded-2xl shadow-lg mx-5 sm:mx-0">
+        <div >
+            <img class="h-32 mx-auto p-4" src="icons/image 12.png">
+        </div>
+        <div class="px-4 space-y-4 flex flex-col justify-center sm:justify-start items-center sm:items-start">
+            <h4 class="text-gray-700 lg:text-2xl font-bold">Find the Perfect Fit</h2>
+            <p class="w-3/4">Everybody is different, which is why we offer styles for every body.</p>
+        </div>
+    </div>
+    
+    <div class="bg-white-800 row-start-1 sm:row-start-auto row-span-3  my-auto">
+        <img class="py-7 " src="images/shopping.png">
+    </div>
+    
+
+    <div class="bg-white-200 sm:flex text-center sm:text-left  py-5 px-6 rounded-2xl shadow-lg mx-5 sm:mx-0">
+        <div>
+            <img class="h-28 p-4 mx-auto" src="icons/image 13.png">
+        </div>
+        <div class="px-4 space-y-4 flex flex-col justify-center sm:justify-start items-center sm:items-start">
+            <h2 class="text-gray-700 text-2xl font-bold">Free Exchanges</h2>
+            <p class="w-3/4">One of the many reasons you can shop with peace of mind.</p>
+        </div>
+    </div>
+    <div class="bg-white-200 sm:flex text-center sm:text-left  py-5 px-6 rounded-2xl shadow-lg mx-5 sm:mx-0">
+        <div>
+            <img class="h-28 mx-auto p-4" src="icons/image 14.png">
+        </div>
+        <div class="px-4 space-y-4 flex flex-col justify-center sm:justify-start items-center sm:items-start ">
+            <h2 class="text-gray-700 text-2xl font-bold">Contact Our Seller</h2>
+            <p class="w-3/4">They are here to help you. That's quite  literally what we pay them for.</p>
+        </div>
+    </div>
+</section>
+</main>
+<footer class="mt-10 bg-gradient-to-t from-blue-300 to-blue-400 ">
+<p class="text-center">Copyright &copy; Towhidul Islam </p>
+</footer>
+    
+
+
+<script src="index.js"></script>
+</body>
+</html>
